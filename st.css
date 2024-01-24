@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+    
+}
+.gray{
+    color: #747474;
+}
+.meny{
+    display: flex;
+    width: 1024px;
+    justify-content: space-between;
+    align-items: center ;
+    margin: auto;
+}
+ul{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;  
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.logo{
+    font-size: 32px;
+    color: #165ff1;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    height: 500px;
+    padding-top: 24px;
+    margin: auto;
+
+}
+.foto{
+    background-image: url(img/cat.png);
+    width: 350px;
+    height:350px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.sdd{
+    background-color:#3c78f0 ;
+    color: white;
+    padding: 3px;
+    width: 190px;
+    border-radius: 15px;
+}
+.lets{
+    color: #165ff1;
+    font-size: 52px;
+    margin: 0px;
+}
+.buton_blue{
+    color: white;
+    background-color: #3c78f0;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px;
+}
+.buton{
+    background-color: white;
+    color: #222;
+    border: #222 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+.buton_div{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+.about_div{
+    width: 1024px ;
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: #e21b8f;
+    margin: 0px;
+}
+.hellow{
+    color: #222;
+    text-align: center;
+    margin: 0px;
+}
+.icons_div{
+    display: flex;
+    justify-content: center;
+}
+.fa-brands{
+    font-size: 32px;
+    color: #e21b8f;
+    margin: 7px;
+}
+.gs{
+    text-align: center;
+    color: #747474;
+}
