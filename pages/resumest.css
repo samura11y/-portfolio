@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.logo{
+    font-size: 32px;
+    color: #165ff1;
+}
+
+body {
+    background-color: #f3f0f0;
+}
+
+.gray {
+    color: #747474;
+}
+
+header {
+    background-color: white;
+}
+
+.meny {
+    display: flex;
+    width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    color: #165ff1;
+    text-align: center;
+
+}
+
+.main_div {
+    width: 1024px;
+    margin: auto;
+}
+
+.mid_div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 300px;
+    margin: 20px;
+}
+
+.card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.pink {
+    color: #e21b8f;
+}
+
+.fa-screwdriver-wrench {
+    background-color: #e21b8f;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.skill_div{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1024px;
+}
+.skills{
+    width: 230px;
+    background-color:#f1f1f1 ;
+    color: #222;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.blue{
+    color:#165ff1 ;
+}
+.fa-code{
+    background-color: #165ff1 ;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #fff;
+    color: #9b9b9b;
+    text-align: center;
+    margin: 100px 0px 0px 0px ;
+    padding: 5px;
+}
